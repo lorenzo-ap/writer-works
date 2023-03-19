@@ -1,0 +1,21 @@
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #000;
+
+    &_big {
+        font-size: 64px;
+        line-height: 100px;
+    }
+
+    &_small {
+        font-size: 35px;
+        line-height: 41px;
+    }
+
+    &__span {
+        color: $red;
+    }
+}

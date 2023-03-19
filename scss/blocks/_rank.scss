@@ -1,0 +1,70 @@
+.rank {
+    padding-bottom: 32px;
+    overflow: hidden;
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__title {
+        margin-bottom: 39px;
+    }
+
+    &__desc {
+        position: relative;
+        margin-left: 65px;
+        margin-bottom: 47px;
+        line-height: 27px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 8px;
+            left: -65px;
+            width: 55px;
+            height: 13px;
+            background-image: url("../icons/red-lines.svg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+
+    &__info {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+
+    &__span {
+        font-weight: 700;
+
+        &_red {
+            color: $red;
+        }
+    }
+
+    &__right {
+        position: relative;
+    }
+
+    &__circle {
+        position: absolute;
+        top: 136px;
+        right: 13px;
+        width: 142px;
+        height: 142px;
+        border-radius: 50%;
+        background-color: $red;
+        z-index: -1;
+    }
+
+    &__svg {
+        position: absolute;
+        bottom: 0;
+        right: -62px;
+        z-index: -2;
+    }
+}

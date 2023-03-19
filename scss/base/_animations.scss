@@ -1,0 +1,15 @@
+@keyframes arrow {
+    from {
+        transform: translate(-50%, -25px);
+    }
+
+    50% {
+        transform: translate(-50%, 0px);
+
+    }
+
+    to {
+        transform: translate(-50%, -25px);
+
+    }
+}

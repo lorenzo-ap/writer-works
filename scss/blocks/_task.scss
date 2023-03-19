@@ -1,0 +1,37 @@
+.task {
+    position: relative;
+    padding: 68px 0;
+    background-color: $red;
+    background-image: url("../img/task-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    &__img {
+        position: absolute;
+        top: -290px;
+        right: 100px;
+        opacity: .75;
+        pointer-events: none;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__desc {
+        margin-bottom: 23px;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 27px;
+        color: #fff;
+
+        &_thin {
+            margin-bottom: 0;
+            font-weight: 500;
+            color: rgba(255, 255, 255, .8);
+        }
+    }
+}

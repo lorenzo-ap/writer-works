@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Writer Works - поможем в разработке диссертации под ключ." />
+    <title>Writer Works</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <link rel="manifest" href="favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <a class="header__logo" href="#!">
+            <img src="icons/logo-black.svg" width="130" height="59" alt="Writer Works" />
+          </a>
+          <a class="header__logo header__logo_small" href="#!">
+            <img src="icons/logo-black-small.svg" width="102" height="59" alt="Writer Works" />
+          </a>
+          <div class="header__right">
+            <!-- Navigation -->
+            <nav class="header__nav">
+              <ul class="header__menu">
+                <li class="header__item">
+                  <a class="header__link" href="#services">Услуги</a>
+                </li>
+                <li class="header__item">
+                  <a class="header__link" href="error.html">Портфолио</a>
+                </li>
+                <li class="header__item">
+                  <a class="header__link" href="#choose">Почему мы</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__contact">
+              <a class="header__link header__link_tel" href="tel:+380968834789">+380 (96) 883 47 89</a>
+              <a class="header__link header__link_tel" href="tel:+380631035218">+380 (63) 103 52 18</a>
+              <div class="header__apps">
+                <a class="header__app" href="https://web.telegram.org/">
+                  <span class="visually-hidden">Telegram</span>
+                  <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="11" cy="11" r="11" fill="black" />
+                    <path
+                      d="M9.92392 12.6836L9.7585 15.0913C9.99517 15.0913 10.0977 14.9861 10.2206 14.8598L11.3302 13.7624L13.6294 15.5048C14.0511 15.748 14.3482 15.62 14.4619 15.1034L15.9711 7.78536L15.9716 7.78493C16.1053 7.13988 15.7461 6.88764 15.3353 7.04588L6.46425 10.5605C5.85882 10.8036 5.86799 11.1529 6.36133 11.3111L8.6293 12.0411L13.8973 8.63005C14.1453 8.46016 14.3707 8.55416 14.1853 8.72405L9.92392 12.6836Z"
+                      fill="white" />
+                  </svg>
+                </a>
+                <a class="header__app" href="https://www.viber.com/">
+                  <span class="visually-hidden">Viber</span>
+                  <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="11" cy="11" r="11" fill="black" />
+                    <path
+                      d="M14.9999 10.8248C15.014 9.11168 13.6077 7.54123 11.865 7.32406C11.8304 7.3198 11.7926 7.31331 11.7527 7.30644C11.6664 7.29161 11.5772 7.27637 11.4872 7.27637C11.13 7.27637 11.0345 7.53666 11.0094 7.6919C10.985 7.84285 11.0083 7.9696 11.0786 8.0688C11.1968 8.23567 11.405 8.26529 11.5721 8.28902C11.6211 8.29604 11.6673 8.30257 11.706 8.31159C13.2717 8.67456 13.7989 9.24523 14.0566 10.8558C14.0628 10.8952 14.0657 10.9437 14.0687 10.9951C14.0799 11.1876 14.1034 11.5882 14.5184 11.5882H14.5185C14.553 11.5882 14.5901 11.5851 14.6288 11.579C15.0153 11.518 15.0032 11.1519 14.9974 10.976C14.9957 10.9264 14.9942 10.8796 14.9982 10.8484C14.9993 10.8406 14.9999 10.8327 14.9999 10.8248Z"
+                      fill="white" />
+                    <path
+                      d="M11.4969 7.04625C11.5374 7.04929 11.5758 7.05219 11.6077 7.05728C13.8541 7.41615 14.8872 8.52178 15.1735 10.8736C15.1783 10.9136 15.1791 10.9623 15.1799 11.014C15.1827 11.1977 15.1886 11.58 15.5838 11.5879L15.596 11.588C15.72 11.588 15.8185 11.5492 15.8891 11.4725C16.0121 11.3389 16.0035 11.1403 15.9966 10.9807C15.9949 10.9416 15.9933 10.9047 15.9937 10.8724C16.0222 8.46711 14.018 6.28599 11.7047 6.20488C11.6951 6.20455 11.6859 6.20508 11.6767 6.20643C11.6721 6.20712 11.6637 6.20798 11.6493 6.20798C11.6262 6.20798 11.5978 6.2059 11.5677 6.20379C11.5313 6.20121 11.4901 6.19824 11.4483 6.19824C11.0799 6.19824 11.0098 6.47026 11.0009 6.63241C10.9802 7.00716 11.3292 7.03354 11.4969 7.04625Z"
+                      fill="white" />
+                    <path
+                      d="M15.3427 13.8671C15.2933 13.8267 15.2422 13.7848 15.1944 13.7435C14.9406 13.5247 14.6706 13.323 14.4095 13.128C14.3553 13.0875 14.3011 13.047 14.2472 13.0064C13.9127 12.7547 13.612 12.6324 13.3279 12.6324C12.9453 12.6324 12.6117 12.8589 12.3363 13.3056C12.2143 13.5037 12.0663 13.5999 11.884 13.5999C11.7761 13.5999 11.6536 13.567 11.5198 13.5019C10.4402 12.9773 9.66932 12.1731 9.22849 11.1115C9.01539 10.5984 9.08447 10.263 9.45951 9.99005C9.67247 9.83518 10.0689 9.54685 10.0408 8.99472C10.009 8.36772 8.71785 6.48116 8.17384 6.26689C7.94351 6.17614 7.70151 6.17529 7.45326 6.26478C6.82787 6.49004 6.37908 6.88565 6.1553 7.40875C5.93904 7.9142 5.94881 8.50769 6.18354 9.12507C6.86213 10.9101 7.8162 12.4663 9.01933 13.7506C10.197 15.0077 11.6444 16.0375 13.3214 16.8112C13.4726 16.8809 13.6311 16.9189 13.7469 16.9467C13.7863 16.9562 13.8204 16.9643 13.8452 16.9716C13.8589 16.9755 13.8729 16.9777 13.887 16.9778L13.9003 16.9779C13.9003 16.9779 13.9003 16.9779 13.9004 16.9779C14.6891 16.9779 15.6362 16.2057 15.927 15.3252C16.1818 14.5543 15.7166 14.1733 15.3427 13.8671Z"
+                      fill="white" />
+                    <path
+                      d="M11.5107 9.4329C11.3843 9.43625 11.1212 9.44309 11.0289 9.72369C10.9858 9.85483 10.9909 9.96868 11.0443 10.0621C11.1227 10.1992 11.2728 10.2412 11.4094 10.2642C11.9046 10.3474 12.1589 10.6343 12.2098 11.1668C12.2334 11.4151 12.3931 11.5885 12.598 11.5885H12.5981C12.6132 11.5885 12.6287 11.5876 12.6441 11.5856C12.8906 11.5549 13.0101 11.3652 12.9993 11.0218C13.0033 10.6634 12.8242 10.2566 12.5197 9.93255C12.2141 9.60749 11.8457 9.42442 11.5107 9.4329Z"
+                      fill="white" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <button class="header__close" type="button">
+              <span class="visually-hidden">Закрыть меню</span>
+              <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="14.5" cy="14.5" r="14" stroke="white" />
+                <rect x="8.91016" y="10.0898" width="1.11111" height="15" transform="rotate(-45 8.91016 10.0898)" fill="white" />
+                <rect x="9.69531" y="20.6953" width="1.11111" height="15" transform="rotate(-135 9.69531 20.6953)" fill="white" />
+              </svg>
+            </button>
+          </div>
+          <button class="header__burger" type="button">
+            <span class="visually-hidden">Меню</span>
+            <span class="header__line"></span>
+            <span class="header__line"></span>
+            <span class="header__line"></span>
+          </button>
+        </div>
+
+        <!-- Promo -->
+        <div class="promo">
+          <h1 class="promo__title title title_big animate__animated animate__fadeInLeftBig">
+            Поможем в разработке диссертации <span class="title__span">"под ключ"</span>
+          </h1>
+          <div class="promo__subtitle text-medium animate__animated animate__fadeInLeftBig">
+            Какая у вас специальность? Сроки? Какие наработки имеются?
+          </div>
+          <div class="promo__consultation animate__animated animate__fadeInLeftBig">
+            <button class="promo__button button button_big open-popup" type="button">Проконсультироваться</button>
+            <div class="promo__desc">Просчитаем стоимость вашей<br />работы и сформируем предложение</div>
+          </div>
+          <div class="promo__advices">
+            <div class="promo__advice animate__animated animate__fadeIn wow">
+              <div class="promo__number">4<span class="promo__span">+</span></div>
+              <hr class="promo__hr" />
+              <div class="promo__info text-medium">Года в деле</div>
+            </div>
+            <div class="promo__advice animate__animated animate__fadeIn wow" data-wow-delay="0.25s">
+              <div class="promo__number">65 <span class="promo__span">+</span></div>
+              <hr class="promo__hr" />
+              <div class="promo__info text-medium">Трудов защитили,<br />благодаря нам</div>
+            </div>
+            <div class="promo__advice animate__animated animate__fadeIn wow" data-wow-delay="0.5s">
+              <div class="promo__number"><span class="promo__span promo__span_text">до</span> 40</div>
+              <hr class="promo__hr" />
+              <div class="promo__info text-medium">лет опыт наших<br />авторов</div>
+            </div>
+            <div class="promo__advice animate__animated animate__fadeIn wow" data-wow-delay="0.75s">
+              <div class="promo__number"><span class="promo__span promo__span_text">от</span> 3</div>
+              <hr class="promo__hr" />
+              <div class="promo__info text-medium">месяцев пишем<br />работы</div>
+            </div>
+          </div>
+        </div>
+        <img class="header__img" src="img/promo-bg-big.svg" width="1066" height="765" alt="Векторная графика" />
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+      <!-- Know -->
+      <section class="know">
+        <div class="container">
+          <div class="know__wrapper">
+            <img
+              class="know__img animate__animated animate__fadeIn wow"
+              data-wow-delay="0.2s"
+              src="img/know-bg.svg"
+              width="514"
+              height="439"
+              alt="Векторная графика" />
+            <div class="know__info">
+              <h2 class="know__title title animate__animated animate__flipInX wow" data-wow-delay="0.4s">
+                Знаем свое <span class="title__span">дело</span>
+              </h2>
+              <p class="know__desc text-medium animate__animated animate__fadeIn wow" data-wow-delay="0.2s">
+                К нам обращаются люди, которые знают, чего хотят, четко идут к своим целям в научных достижениях. И мы им в этом помогаем!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section class="services" id="services">
+        <div class="container">
+          <div class="services__header animate__animated animate__fadeInLeft wow" data-wow-delay="0.5s">Услуги</div>
+          <div class="services__arrow services__arrow_big">
+            <img src="icons/arrow.svg" width="24" height="103" alt="Красная стрелка смотрящая вниз" />
+          </div>
+          <div class="services__arrow services__arrow_small">
+            <img src="icons/arrow-small.svg" width="24" height="38" alt="Красная стрелка смотрящая вниз" />
+          </div>
+          <h2 class="services__title title animate__animated animate__flipInX wow" data-wow-delay="0.4s">
+            Готовы выполнить для вас труд<br /><span class="title__span">"под ключ"</span> или отдельные части
+          </h2>
+          <div class="services__wrapper">
+            <div class="services__items">
+              <div class="services__item animate__animated animate__fadeIn wow" data-wow-delay="0.2s">
+                <div class="services__left">
+                  <div class="services__name">Кандидатская<br />диссертация “под ключ”</div>
+                  <div class="services__bottom">
+                    <div class="services__prices">
+                      <div class="services__price">от 58 000 грн</div>
+                      <div class="services__benefit">(Выгода до 25%)</div>
+                    </div>
+                    <button class="services__button button open-popup" type="button">Проконсультироваться</button>
+                  </div>
+                </div>
+                <div class="services__right">
+                  <div class="services__order">Если заказывать отдельно:</div>
+                  <ul class="services__list">
+                    <li class="services__list-item">Работа от 45 000 грн</li>
+                    <li class="services__list-item">Статья ВАК от 2 300 грн</li>
+                    <li class="services__list-item">Статья для Scopus от 2 800 грн</li>
+                    <li class="services__list-item">Автореферат от 12 000 грн</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="services__item animate__animated animate__fadeIn wow" data-wow-delay="0.2s">
+                <div class="services__left">
+                  <div class="services__name">Докторская<br />диссертация “под ключ”</div>
+                  <div class="services__bottom">
+                    <div class="services__prices">
+                      <div class="services__price">от 210 000 грн</div>
+                      <div class="services__benefit">(Выгода до 35%)</div>
+                    </div>
+                    <button class="services__button button open-popup" type="button">Проконсультироваться</button>
+                  </div>
+                </div>
+                <div class="services__right">
+                  <div class="services__order">Если заказывать отдельно:</div>
+                  <ul class="services__list">
+                    <li class="services__list-item">Работа от 120 000 грн</li>
+                    <li class="services__list-item">Статья ВАК от 2 800 грн</li>
+                    <li class="services__list-item">Статья для Scopus от 3 300 грн</li>
+                    <li class="services__list-item">Автореферат от 19 000 грн</li>
+                    <li class="services__list-item">Монография от 50 000 грн</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="services__item services__item_about animate__animated animate__fadeIn wow" data-wow-delay="0.2s">
+                <div class="services__left">
+                  <div class="services__name services__name_add">Дополнительно</div>
+                  <div class="services__bottom">
+                    <div class="services__prices">
+                      <div class="services__price">от 2 300 грн</div>
+                    </div>
+                    <button class="services__button button button_white open-popup" type="button">Проконсультироваться</button>
+                  </div>
+                </div>
+                <div class="services__right">
+                  <ul class="services__list services__list_add">
+                    <li class="services__list-item services__list-item_add">Тезисы (апробация)</li>
+                    <li class="services__list-item services__list-item_add">Патенты (для технических<br />специальностей)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="services__header services__header_small animate__animated animate__fadeInRight wow" data-wow-delay="0.5s">PhD</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Choose -->
+      <section class="choose" id="choose">
+        <div class="container">
+          <h2 class="choose__title title animate__animated animate__flipInX wow" data-wow-delay="0.4s">
+            <span class="title__span">Нас выбирают</span> не просто так
+          </h2>
+          <div class="choose__wrapper">
+            <img
+              class="choose__img animate__animated animate__fadeIn wow"
+              data-wow-delay="0.2s"
+              src="img/choose-bg.svg"
+              width="473"
+              height="483"
+              alt="Разные фигуры" />
+            <div class="choose__items">
+              <div class="choose__item animate__animated animate__fadeIn wow" data-wow-delay="0.5s">
+                <div class="choose__number">01</div>
+                <div class="choose__desc">
+                  <span class="choose__span">Справляемся со всеми специальностями<br />и уровнями сложности.</span><br />Для нас нет ничего
+                  невозможного
+                </div>
+              </div>
+              <div class="choose__item animate__animated animate__fadeIn wow" data-wow-delay="0.75s">
+                <div class="choose__number">02</div>
+                <div class="choose__desc">
+                  <span class="choose__span">Даем настоящие гарантии.</span><br />Дорожим будущим клиентов<br />и своей репутацией
+                </div>
+              </div>
+            </div>
+            <div class="choose__items">
+              <div class="choose__item animate__animated animate__fadeIn wow" data-wow-delay="1s">
+                <div class="choose__number">03</div>
+                <div class="choose__desc">
+                  <span class="choose__span">Полное сопровождение до защиты.</span><br />Работаем понятно и прозрачно.<br />Контроль процесса с вашей
+                  стороны
+                </div>
+              </div>
+              <div class="choose__item animate__animated animate__fadeIn wow" data-wow-delay="1.25s">
+                <div class="choose__number">04</div>
+                <div class="choose__desc">
+                  <span class="choose__span">Понимаем своих клиентов<br />с полуслова.</span> Всегда договоримся,<br />найдем компромисс
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Work -->
+      <section class="work">
+        <div class="container">
+          <h2 class="work__title title title_small animate__animated animate__flipInX wow" data-wow-delay="0.4s">
+            <span class="title__span">Мы понимаем</span>, насколько важно найти хороших исполнителей для своей диссертации, поэтому показываем вам,
+            какие <span class="title__span">работы способны выполнять.</span>
+          </h2>
+          <div class="work__desc animate__animated animate__fadeIn wow" data-wow-delay="0.2s">
+            По понятным причинам, название тем немного видоизменили. Анонимность превыше всего
+          </div>
+          <hr class="work__hr" />
+          <div class="work__item animate__animated animate__fadeIn wow" data-wow-delay="0.2s">
+            <div class="work__info">
+              <span class="work__span">Специальность: Авиа-ракетостроение</span>
+              <br />
+              Тема: "Прямоточные двигатели в ракетостроении. Регулирование расхода топлива"
+            </div>
+          </div>
+          <hr class="work__hr" />
+          <div class="work__item animate__animated animate__fadeIn wow" data-wow-delay="0.2s">
+            <div class="work__info">
+              <span class="work__span">Специальность: Психология</span>
+              <br />
+              Тема: "Формирование профессионально-ценностных ориентаций будущих работников с/х в профессиональных технических училищах"
+            </div>
+          </div>
+          <hr class="work__hr" />
+          <div class="work__item animate__animated animate__fadeIn wow" data-wow-delay="0.2s">
+            <div class="work__info">
+              <span class="work__span">Специальность: Электротехника</span>
+              <br />
+              Тема: "Метрологическое обеспечивание термометрических систем..."
+            </div>
+          </div>
+          <hr class="work__hr" />
+          <div class="work__item animate__animated animate__fadeIn wow" data-wow-delay="0.2s">
+            <div class="work__info">
+              <span class="work__span">Специальность: Информационные технологии</span>
+              <br />
+              Тема: "Теоретические и практические принципы обеспечивания комплексной защиты компьютерных систем и сетей (на примере
+              Аппаратно-реализованной системы защиты сети самообучающимися антивирусными модулями)
+            </div>
+          </div>
+          <hr class="work__hr" />
+          <div class="work__item animate__animated animate__fadeIn wow" data-wow-delay="0.2s">
+            <div class="work__info">
+              <span class="work__span">Специальность: Педагогика</span>
+              <br />
+              Тема: "Использование информационно-коммуникационных технологий в процессе обучения иностранных студентов на английском языке в
+              Великобритании"
+            </div>
+          </div>
+          <hr class="work__hr" />
+          <div class="work__item animate__animated animate__fadeIn wow" data-wow-delay="0.2s">
+            <div class="work__info">
+              <span class="work__span">Специальность: Маркетинг</span>
+              <br />
+              Тема: "Организационно-экономический механизм в маркетинге (на примере отечественных предприятий по производству стали)
+            </div>
+          </div>
+          <hr class="work__hr" />
+        </div>
+      </section>
+
+      <!-- Theme -->
+      <section class="theme">
+        <div class="container">
+          <img class="theme__bg" src="img/theme-bg.svg" width="1119" height="613" alt="Векторная графика" />
+          <h2 class="theme__title title title_small animate__animated animate__flipInX wow" data-wow-delay="0.4s">
+            Покажите нам <span class="title__span">свою тему</span>
+          </h2>
+          <div class="theme__desc text-medium animate__animated animate__fadeIn wow" data-wow-delay="0.2s">
+            Сделаем все, чтобы вы успешно<br />получили степень
+          </div>
+          <div class="theme__items">
+            <div class="theme__item animate__animated animate__fadeIn wow" data-wow-delay="0.5s">
+              <img class="theme__icon" src="icons/plagiary.svg" width="64" height="64" alt="Два документа с лупой" />
+              <div class="theme__name text-medium">никакого плагиата</div>
+            </div>
+            <div class="theme__item animate__animated animate__fadeIn wow" data-wow-delay="0.75s">
+              <img class="theme__icon" src="icons/docs.svg" width="63" height="63" alt="Документ с замком" />
+              <div class="theme__name text-medium">конфиденциальность</div>
+            </div>
+            <div class="theme__item animate__animated animate__fadeIn wow" data-wow-delay="1s">
+              <img class="theme__icon" src="icons/message.svg" width="62" height="62" alt="Сообщение с замком" />
+              <div class="theme__name text-medium">полное сопровождение</div>
+            </div>
+          </div>
+          <form class="theme__form animate__animated animate__fadeIn wow" data-wow-delay="0.2s" action="#!">
+            <input class="theme__input" type="text" placeholder="Ваше имя" required />
+            <input class="theme__input" type="tel" placeholder="Ваш телефон" required />
+            <textarea
+              class="theme__input theme__input_textarea"
+              placeholder="Какая у вас специальность, сроки, какие имеются наработки"
+              required></textarea>
+            <button class="theme__button button button_small" type="submit">Проконсультироваться</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Rank -->
+      <section class="rank">
+        <div class="container">
+          <div class="rank__wrapper">
+            <div class="rank__left">
+              <h2 class="rank__title title title_small animate__animated animate__flipInX wow" data-wow-delay="0.4s">
+                Вовсе не важно, для какой цели вы <span class="title__span">получаете научное звание</span>
+              </h2>
+              <div class="rank__desc text-medium animate__animated animate__fadeIn wow" data-wow-delay="0.2s">
+                Для продвижения в карьере или для<br />регалий в научной деятельности
+              </div>
+              <div class="rank__info animate__animated animate__fadeIn wow" data-wow-delay="0.2s">
+                напишем работу <span class="rank__span">конкретно под ваш запрос</span>, с необходимой<br />глубиной научного исследования и
+                <span class="rank__span rank__span_red">под имеющийся бюджет!</span>
+              </div>
+            </div>
+            <div class="rank__right animate__animated animate__fadeInRight wow" data-wow-delay="0.5s">
+              <img class="rank__img" src="img/rank-bg.png" width="522" height="512" alt="Статуя на черном фоне" />
+              <div class="rank__circle"></div>
+              <img class="rank__svg" src="icons/rank-circle.svg" width="315" height="315" alt="Круг наполненный серыми линиями" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Task -->
+      <div class="task animate__animated animate__fadeInUp wow" data-wow-delay="0.5s">
+        <div class="container">
+          <img class="task__img" src="img/task-lines.svg" width="1266" height="613" alt="Векторная графика" />
+          <div class="task__wrapper">
+            <div class="task__info">
+              <div class="task__desc">Ваша задача предоставить нам необходимый<br />материал, установить сроки выполнения</div>
+              <div class="task__desc task__desc_thin">Наше обязательство — отдать вам<br />готовый, оформленный текст</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Time -->
+      <section class="time">
+        <div class="container">
+          <h2 class="time__title title title_small animate__animated animate__flipInX wow" data-wow-delay="0.4s">
+            Представьте, сколько времени мы можем<br /><span class="title__span">сэкономить для вас</span>
+          </h2>
+          <div class="time__desc text-medium animate__animated animate__fadeIn wow" data-wow-delay="0.2s">
+            По нашей статистике, в среднем мы экономим своим<br />клиентам от 4 до 9 месяцев жизни
+          </div>
+          <div class="time__items">
+            <div class="time__item animate__animated animate__fadeIn wow" data-wow-delay="0.5s">
+              <div class="time__number">1</div>
+              <div class="time__info">В разработке правильного содержания, чтобы в дальнейшем хватило материала для написания разделов</div>
+            </div>
+            <div class="time__item animate__animated animate__fadeIn wow" data-wow-delay="0.75s">
+              <div class="time__number">2</div>
+              <div class="time__info">В поиске и подборе огромного количества литературы, ее обрабатывании и внедрении в труд</div>
+            </div>
+            <div class="time__item animate__animated animate__fadeIn wow" data-wow-delay="1s">
+              <div class="time__number">3</div>
+              <div class="time__info">В форматировании текста для прохождения строгих систем проверки плагиата</div>
+            </div>
+            <div class="time__item animate__animated animate__fadeIn wow" data-wow-delay="1.25s">
+              <div class="time__number">4</div>
+              <div class="time__info">В проведении длительных сложных исследований, разработке практической значимости труда</div>
+            </div>
+          </div>
+          <img class="time__img" src="img/time-circle.svg" width="404" height="404" alt="Векторная графика" />
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact">
+        <div class="container animate__animated animate__fadeInUp wow">
+          <div class="contact__wrapper" data-wow-delay="1s">
+            <div class="contact__left">
+              <h2 class="contact__title title">
+                Если вы все еще<br />сомневаетесь, сможем ли<br /><span class="contact__span">мы качественно вам помочь</span>
+              </h2>
+              <div class="contact__desc">
+                Оставьте свой контакт и мы убедим вас, что сотрудничество с нами —
+                <span class="contact__span">одно из самых правильных ваших решений за последние несколько лет</span>
+              </div>
+            </div>
+            <div class="contact__right">
+              <form class="contact__form" action="#!">
+                <input class="contact__input" type="text" placeholder="Ваше имя" required />
+                <input class="contact__input" type="tel" placeholder="Ваш телефон" required />
+                <button class="contact__button button" type="submit">Жду звонка</button>
+              </form>
+            </div>
+            <img class="contact__img contact__lines" src="img/rank-svg.svg" width="980" height="751" alt="Векторная графика" />
+            <img class="contact__img contact__hexagon" src="img/rank-lines.svg" width="398" height="434" alt="Векторная графика" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__left">
+            <a class="footer__logo" href="#!">
+              <img src="icons/logo-white.svg" width="130" height="59" alt="Writer Works" />
+            </a>
+            <a class="footer__logo footer__logo_small" href="#!">
+              <img src="icons/logo-white-small.svg" width="102" height="59" alt="Writer Works" />
+            </a>
+            <div class="footer__copyright">© 2021 Все права защищены</div>
+          </div>
+          <div class="footer__right">
+            <!-- Navigation -->
+            <nav class="footer__nav">
+              <ul class="footer__menu">
+                <li class="footer__item">
+                  <a class="footer__link" href="#services">Услуги</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="error.html">Портфолио</a>
+                </li>
+                <li class="footer__item">
+                  <a class="footer__link" href="#choose">Почему мы</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="footer__contact">
+              <a class="footer__link footer__link_tel" href="tel:+380968834789">+380 (96) 883 47 89</a>
+              <a class="footer__link footer__link_tel" href="tel:+380631035218">+380 (63) 103 52 18</a>
+              <div class="footer__apps">
+                <a class="footer__app" href="https://web.telegram.org/">
+                  <span class="visually-hidden">Telegram</span>
+                  <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="11" cy="11" r="11" fill="white" />
+                    <path
+                      d="M9.92392 12.6836L9.7585 15.0913C9.99517 15.0913 10.0977 14.9861 10.2206 14.8598L11.3302 13.7624L13.6294 15.5048C14.0511 15.748 14.3482 15.62 14.4619 15.1034L15.9711 7.78536L15.9716 7.78493C16.1053 7.13988 15.7461 6.88764 15.3353 7.04588L6.46425 10.5605C5.85882 10.8036 5.86799 11.1529 6.36133 11.3111L8.6293 12.0411L13.8973 8.63005C14.1453 8.46016 14.3707 8.55416 14.1853 8.72405L9.92392 12.6836Z"
+                      fill="black" />
+                  </svg>
+                </a>
+                <a class="footer__app" href="https://www.viber.com/">
+                  <span class="visually-hidden">Viber</span>
+                  <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="11" cy="11" r="11" fill="white" />
+                    <path
+                      d="M14.9999 10.8248C15.014 9.11168 13.6077 7.54123 11.865 7.32406C11.8304 7.3198 11.7926 7.31331 11.7527 7.30644C11.6664 7.29161 11.5772 7.27637 11.4872 7.27637C11.13 7.27637 11.0345 7.53666 11.0094 7.6919C10.985 7.84285 11.0083 7.9696 11.0786 8.0688C11.1968 8.23567 11.405 8.26529 11.5721 8.28902C11.6211 8.29604 11.6673 8.30257 11.706 8.31159C13.2717 8.67456 13.7989 9.24523 14.0566 10.8558C14.0628 10.8952 14.0657 10.9437 14.0687 10.9951C14.0799 11.1876 14.1034 11.5882 14.5184 11.5882H14.5185C14.553 11.5882 14.5901 11.5851 14.6288 11.579C15.0153 11.518 15.0032 11.1519 14.9974 10.976C14.9957 10.9264 14.9942 10.8796 14.9982 10.8484C14.9993 10.8406 14.9999 10.8327 14.9999 10.8248Z"
+                      fill="black" />
+                    <path
+                      d="M11.4969 7.04625C11.5374 7.04929 11.5758 7.05219 11.6077 7.05728C13.8541 7.41615 14.8872 8.52178 15.1735 10.8736C15.1783 10.9136 15.1791 10.9623 15.1799 11.014C15.1827 11.1977 15.1886 11.58 15.5838 11.5879L15.596 11.588C15.72 11.588 15.8185 11.5492 15.8891 11.4725C16.0121 11.3389 16.0035 11.1403 15.9966 10.9807C15.9949 10.9416 15.9933 10.9047 15.9937 10.8724C16.0222 8.46711 14.018 6.28599 11.7047 6.20488C11.6951 6.20455 11.6859 6.20508 11.6767 6.20643C11.6721 6.20712 11.6637 6.20798 11.6493 6.20798C11.6262 6.20798 11.5978 6.2059 11.5677 6.20379C11.5313 6.20121 11.4901 6.19824 11.4483 6.19824C11.0799 6.19824 11.0098 6.47026 11.0009 6.63241C10.9802 7.00716 11.3292 7.03354 11.4969 7.04625Z"
+                      fill="black" />
+                    <path
+                      d="M15.3427 13.8671C15.2933 13.8267 15.2422 13.7848 15.1944 13.7435C14.9406 13.5247 14.6706 13.323 14.4095 13.128C14.3553 13.0875 14.3011 13.047 14.2472 13.0064C13.9127 12.7547 13.612 12.6324 13.3279 12.6324C12.9453 12.6324 12.6117 12.8589 12.3363 13.3056C12.2143 13.5037 12.0663 13.5999 11.884 13.5999C11.7761 13.5999 11.6536 13.567 11.5198 13.5019C10.4402 12.9773 9.66932 12.1731 9.22849 11.1115C9.01539 10.5984 9.08447 10.263 9.45951 9.99005C9.67247 9.83518 10.0689 9.54685 10.0408 8.99472C10.009 8.36772 8.71785 6.48116 8.17384 6.26689C7.94351 6.17614 7.70151 6.17529 7.45326 6.26478C6.82787 6.49004 6.37908 6.88565 6.1553 7.40875C5.93904 7.9142 5.94881 8.50769 6.18354 9.12507C6.86213 10.9101 7.8162 12.4663 9.01933 13.7506C10.197 15.0077 11.6444 16.0375 13.3214 16.8112C13.4726 16.8809 13.6311 16.9189 13.7469 16.9467C13.7863 16.9562 13.8204 16.9643 13.8452 16.9716C13.8589 16.9755 13.8729 16.9777 13.887 16.9778L13.9003 16.9779C13.9003 16.9779 13.9003 16.9779 13.9004 16.9779C14.6891 16.9779 15.6362 16.2057 15.927 15.3252C16.1818 14.5543 15.7166 14.1733 15.3427 13.8671Z"
+                      fill="black" />
+                    <path
+                      d="M11.5107 9.4329C11.3843 9.43625 11.1212 9.44309 11.0289 9.72369C10.9858 9.85483 10.9909 9.96868 11.0443 10.0621C11.1227 10.1992 11.2728 10.2412 11.4094 10.2642C11.9046 10.3474 12.1589 10.6343 12.2098 11.1668C12.2334 11.4151 12.3931 11.5885 12.598 11.5885H12.5981C12.6132 11.5885 12.6287 11.5876 12.6441 11.5856C12.8906 11.5549 13.0101 11.3652 12.9993 11.0218C13.0033 10.6634 12.8242 10.2566 12.5197 9.93255C12.2141 9.60749 11.8457 9.42442 11.5107 9.4329Z"
+                      fill="black" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Pop-up -->
+    <div class="popup-bg">
+      <div class="popup">
+        <svg class="popup-close" width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="14.5" cy="14.5" r="14" stroke="#D83838" />
+          <rect x="8.91016" y="10.0898" width="1.11111" height="15" transform="rotate(-45 8.91016 10.0898)" fill="#D83838" />
+          <rect x="9.69531" y="20.6953" width="1.11111" height="15" transform="rotate(-135 9.69531 20.6953)" fill="#D83838" />
+        </svg>
+
+        <h2 class="popup__title title">Заказать<br />консультацию</h2>
+        <div class="popup__recall">Перезвоним, проконсультируем<br />по всем вопросам</div>
+        <form class="popup__form" action="#!">
+          <input class="popup__input" type="text" placeholder="Ваше имя" required />
+          <input class="popup__input" type="tel" placeholder="Ваш телефон" required />
+          <button class="popup__button button" type="submit">Жду звонка</button>
+        </form>
+        <div class="popup__desc">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</div>
+      </div>
+
+      <div class="popup-submit">
+        <svg class="popup-close" width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="14.5" cy="14.5" r="14" stroke="#D83838" />
+          <rect x="8.91016" y="10.0898" width="1.11111" height="15" transform="rotate(-45 8.91016 10.0898)" fill="#D83838" />
+          <rect x="9.69531" y="20.6953" width="1.11111" height="15" transform="rotate(-135 9.69531 20.6953)" fill="#D83838" />
+        </svg>
+        <div class="popup-submit__text">
+          <span class="popup-submit__green">Заявку получили!</span>
+          <br /><br />
+          <span class="popup-submit__bold">Ожидайте звонка менеджера в течение 15 минут</span><br />в рабочее время с 10:00 до 19:00
+        </div>
+      </div>
+    </div>
+
+    <!-- Red bg -->
+    <div class="menu-bg"></div>
+
+    <!-- JS -->
+    <script src="js/wow.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

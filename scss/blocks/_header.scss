@@ -1,0 +1,130 @@
+.header {
+    padding-top: 38px;
+    overflow: hidden;
+
+    &__wrapper {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        &_small {
+            display: none;
+        }
+    }
+
+    &__img {
+        position: absolute;
+        top: 0;
+        right: -365px;
+        opacity: .75;
+        pointer-events: none;
+        z-index: -1;
+    }
+
+    &__right {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    &__menu {
+        display: flex;
+        margin: 0;
+        margin-right: 98px;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__item {
+        &:not(:last-child) {
+            margin-right: 32px;
+        }
+    }
+
+    &__link {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        color: #000;
+        transition: color .3s ease;
+
+        &:hover {
+            color: $red;
+        }
+
+        &_tel {
+            border-bottom: 1px solid $red;
+
+            &:first-child {
+                margin-bottom: 2px;
+            }
+        }
+    }
+
+    &__contact {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 2px;
+            left: -20px;
+            width: 14px;
+            height: 14px;
+            background-image: url("../icons/phone.svg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+
+    &__app {
+        display: inline-block;
+        font-size: 0;
+
+        &:not(:last-child) {
+            margin-right: 5px;
+        }
+
+        circle {
+            transition: fill .3s ease;
+        }
+
+        &:hover {
+            circle {
+                fill: #D83838;
+            }
+        }
+    }
+
+    &__burger,
+    &__close {
+        display: none;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 50%;
+        outline: none;
+        background: $red;
+    }
+
+    &__line {
+        display: block;
+        width: 60%;
+        height: 2px;
+        border-radius: 5px;
+        background-color: #fff;
+
+        &:not(:last-child) {
+            margin-bottom: 3px;
+        }
+    }
+}

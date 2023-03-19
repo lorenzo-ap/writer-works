@@ -1,0 +1,22 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    &__word {
+        font-size: 96px;
+        font-weight: 500;
+        line-height: 1;
+        text-align: center;
+    }
+
+    &__number {
+        margin-bottom: 20px;
+        font-size: 400px;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+    }
+}

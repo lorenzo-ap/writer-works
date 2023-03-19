@@ -1,0 +1,64 @@
+.work {
+    &__title {
+        margin-bottom: 30px;
+    }
+
+    &__desc {
+        position: relative;
+        max-width: 550px;
+        margin-bottom: 47px;
+        margin-left: 70px;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 26px;
+        color: rgba(0, 0, 0, .8);
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 8px;
+            left: -65px;
+            width: 55px;
+            height: 13px;
+            background-image: url("../icons/red-lines.svg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+
+    &__hr {
+        width: calc(100 * $vw);
+        height: 1px;
+        margin: 0;
+        margin-left: calc(50% - (50 * $vw));
+        border: none;
+        opacity: 1;
+        background-color: #303030;
+    }
+
+    &__item {
+        width: calc(100 * $vw);
+        margin-left: calc(50% - (50 * $vw));
+        transition: color .3s ease, background-color .3s ease;
+
+        &:hover {
+            color: #fff;
+            background-color: $red;
+        }
+    }
+
+    &__info {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 30px 20px;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 26px;
+        pointer-events: none;
+    }
+
+    &__span {
+        font-weight: 700;
+    }
+}
